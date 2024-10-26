@@ -6,4 +6,5 @@ def decimalToBinary(n):
     else:
         return ((n % 2) + (10 * decimalToBinary(quotient)))
 
+
 print(decimalToBinary(-13))

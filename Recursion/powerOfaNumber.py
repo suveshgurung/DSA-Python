@@ -7,4 +7,5 @@ def powerOfNumber(num, pow):
     else:
         return (num * powerOfNumber(num, pow - 1))
 
+
 print(powerOfNumber(3.2, 0))

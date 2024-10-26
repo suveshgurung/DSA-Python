@@ -5,4 +5,5 @@ def sumOfDigits(n):
     else:
         return (int(n % 10) + sumOfDigits(int(n / 10)))
 
+
 print(sumOfDigits(9999))
